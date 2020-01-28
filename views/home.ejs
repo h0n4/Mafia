@@ -1,0 +1,26 @@
+<%- include('partials/header') -%>
+<div class="jumbotron">
+    <h1 class="display-3">Mafia (MMBH)</h1>
+    <hr class="my-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <form action="/host" method="GET">
+                    <input type="submit" class="btn btn-primary btn-lg " id="hostBtn" value="HOST"
+                        >
+                </form>
+            </div>
+            <div class="col-2">
+
+            </div>
+            <div class="col-5">
+                <form action="/player" method="GET">
+                    <input type="submit" class="btn btn-primary btn-lg " id="playerBtn"
+                        value="PLAYER" >
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('partials/footer') -%>
