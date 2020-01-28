@@ -1,0 +1,23 @@
+{
+  "name": "mafia",
+  "version": "1.0.0",
+  "description": "A game made for RIS boredom",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h0n4/Mafia.git"
+  },
+  "author": "hong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h0n4/Mafia/issues"
+  },
+  "homepage": "https://github.com/h0n4/Mafia#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
